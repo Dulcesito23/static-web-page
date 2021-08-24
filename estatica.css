@@ -1,0 +1,139 @@
+#main-header {
+	background: #333;/*color del fondo del intem de la cabecera */
+	color: white;/*color del texto*/
+	height: 80px;/*altura del bloque */
+	width: 100%; /* hacemos que la cabecera ocupe el ancho completo de la página */
+	left: 0; /* Posicionamos la cabecera al lado izquierdo */
+	top: 0; /* Posicionamos la cabecera pegada arriba */
+	position: fixed; /* Hacemos que la cabecera tenga una posición fija */
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: Helvetica, Arial, sans-serif;/*fuente del elemento*/
+	color: rgb(0, 0, 0); /*color del texto */
+  background-image: url("fondo.jpg");/*imagen del fondo*/
+	font-size: 1em;/*tamañode la fuente*/
+	line-height: 1.5em;/*altura entre las lineas de texto*/
+  font-family: "Homer Simpson UI";/*fuente del elemento*/
+  padding-top: 80px; /* Relleno superior igual a la altura de la cabecera*/
+}
+
+h1 {
+	font-size: 2.3em;/*tamaño de fuente*/
+	line-height: 1.3em;/*altura entre lineas de texto*/
+	margin: 15px 0;/*margen del elemento*/
+	text-align: center;/*posicionamiento del texto*/
+	font-weight: 300;/*fuente más grueso que el tipo del elemento padre*/
+}
+
+p {
+	margin: 0 0 1.5em 0;/*tamaño del margen del elemento*/
+}
+
+img {
+	max-width: 100%;/*ancho maximo del elemento*/
+	height: auto;/*altura de la imagen*/
+}
+/*cabecera:*/
+
+#main-header {
+	background: #333;/*color de fonto del item*/
+	color: white;/*Establece el color del texto*/
+	height: 80px;/*altura del item*/
+}	
+	#main-header a {
+	color: white;/*Establece el color del texto*/
+}
+
+/*Logo*/
+
+#logo-header {
+	float: left;/*logo debe flotar su posicionamiento a la izquierda del bloque contenedor.*/
+	padding: 15px 0 0 20px;/*espacio del relleno*/
+	text-decoration: none;/*elimina el formato del texto*/
+}
+#logo-header:hover {
+	color: #0b76a6;/**/
+}
+	
+#logo-header .site-name {
+	display: block;/*determina el tipo de caja en bloque*/
+	font-weight: 700;/*fuente más grueso que el tipo del elemento padre*/
+	font-size: 1.2em;/*establece el tamaño de una fuente*/
+}
+	
+#logo-header .site-desc {
+	display: block;/*determina el tipo de caja en bloque*/
+	font-weight: 300;/*fuente más grueso que el tipo del elemento padre*/
+	font-size: 0.8em;/*establece el tamaño de una fuente*/
+	color: #999;/*color del texto*/
+}
+	
+
+/* Navegación*/
+
+nav {
+	float: right;/*El elemento debe flotar a la derecha de su bloque contenedor*/
+}
+nav ul {
+	margin: 0;/*establece el margen para los cuatro lados*/
+	padding: 0;/*espacio de relleno de todos los lados del elemento*/
+	list-style: none;/*elimina los estilos del contenido*/
+	padding-right: 20px;/*relleno del especio derecho del elemento.*/
+}
+	
+nav ul li {
+	display: inline-block;/*permite establecer un ancho y un alto en el elemento.*/
+	line-height: 80px;/* la distancia entre líneas de texto*/
+}
+			
+nav ul li a {
+	display: block;/*elemento en bloque*/
+	padding: 0 10px;/*relleno del espacio*/
+	text-decoration: none;/*elimina el formato del texto*/
+}
+			
+nav ul li a:hover {
+	background: #0b76a6;/*color del fondo del item*/
+}
+
+/*diseño del contenido:*/
+ 
+#main-content {
+	background: white;/*color del fondo del contendor*/
+	width: 90%;/*ancho del conenedor*/
+	max-width: auto;/*ancho maximo*/
+	margin: 20px auto;/*margen del elemento*/
+	box-shadow: 0 0 10px rgba(0,0,0,.1);/*tamaño y color dela sombra en el marco del elemento*/
+}
+
+#main-content header,
+#main-content .content {
+	padding: 40px;/*relleno del espacio*/
+}
+
+#columnas{
+  column-count:2;/*Indica el número de columnas que se van a crear.*/
+  column-gap:20px;/* Indica el espacio (expresado en píxeles) que existirá como mínimo entre columnas.*/
+  column-rule:4px dotted gray;/*Hace referencia a la línea separadora que hay entre las columnas y contiene 3 valores ('grosor de la línea', 'el tipo de separador' y 'su color').
+  */
+  text-align: center;/*elineacion del texto centrado*/
+}
+/*pie de página:*/
+
+#main-footer {
+	background: #333;/*color del fondo del item*/
+	color: white;/*color del texto*/
+	text-align: center;/*posicionamiento del texto centrado*/
+	padding: 20px;/*relleno del espacio*/
+	margin-top: 40px;/*argen superior del elemento*/
+}
+	#main-footer p {
+		margin: 0;/*margen del elemento*/
+	}
+	
+	#main-footer a {
+		color: white;/*color del texto*/
+	}
